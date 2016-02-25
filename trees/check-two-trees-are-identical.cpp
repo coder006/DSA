@@ -37,7 +37,7 @@ int main() {
     root2->left = newNode(2);
     root2->right = newNode(3);
     root2->left->left = newNode(4);
-    root2->left->right = newNode(6);
+    root2->left->right = newNode(5);
 
     bool isIdentical = checkIdentical(root1, root2);
     if(isIdentical)
